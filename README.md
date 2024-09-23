@@ -42,11 +42,9 @@ Configurar el puerto de la API
 
 Abre el archivo environment.development.ts en la carpeta src/environments y cambia la variable apiUrl para que apunte al puerto de tu API local. Por ejemplo:
 
-typescript
-Copiar código
 export const environment = {
     production: false,
-    apiUrl: 'http://localhost:5000' // Cambia este puerto según sea necesario
+    urlApiVendor: 'http://localhost:5000' // Cambia este puerto según sea necesario
 };
 Ejecutar el proyecto Angular
 
