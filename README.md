@@ -27,16 +27,12 @@ Clonar el repositorio del frontend
 
 Si el frontend también está en un repositorio separado, clónalo:
 
-bash
-Copiar código
 git clone [URL del repositorio del frontend]
 cd [nombre del proyecto Angular]
 Instalar dependencias
 
 Asegúrate de estar en el directorio del proyecto Angular y ejecuta:
 
-bash
-Copiar código
 npm install
 Configurar el puerto de la API
 
@@ -50,9 +46,7 @@ Ejecutar el proyecto Angular
 
 Una vez configurado, ejecuta el proyecto Angular:
 
-bash
-Copiar código
-ng serve
+ng serve --o
 El frontend se ejecutará en http://localhost:4200 por defecto.
 
 Notas
